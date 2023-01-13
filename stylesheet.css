@@ -10,6 +10,36 @@ body {
     grid-area: 1 / 1 / -1 / 2;
 }
 
+/* Align the icon and text on the same row */
+.sidebar li {
+    display: flex; /* make the list item a flex container */
+    align-items: center; /* align the icon and text vertically */
+}
+
+/* Set the width and height of the icon */
+.sidebar li img {
+    width: 2rem; /* or any other value */
+    height: auto;
+    margin-right: 5px; /* add some space between icon and text */
+}
+
+/* Style for the menu text */
+.sidebar li .menu-text {
+    font-size: 14px; /* or any other value */
+    color: #000; /* or any other value */
+}
+
+/* Style for the menu items */
+.sidebar li {
+    padding: 10px; /* or any other value */
+    cursor: pointer;
+}
+
+/* Style for the menu items hover*/
+.sidebar li:hover {
+    background-color: #f1f1f1;
+}
+
 .header {
     grid-column-start: 2;
     grid-row-start: 1;
