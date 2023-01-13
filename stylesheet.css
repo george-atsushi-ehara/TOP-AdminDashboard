@@ -15,6 +15,28 @@ body {
     grid-row-start: 1;
 }
 
+/* Make the upper container a flex container */
+.head-upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Set a fixed width for the notification icon */
+.notification {
+    width: 24px; /* or any other pixel value */
+    text-align: center;
+}
+/* Set the width of the profile icon and name based on the length of the name */
+.profile {
+    width: auto;
+    flex: 1;
+    text-align: center;
+}
+/* Set the search input to take up the remaining space */
+.search {
+    flex: 1;
+}
+
 .main-content {
     background-color: gray;
 }
