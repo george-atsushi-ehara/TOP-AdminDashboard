@@ -25,8 +25,8 @@ body {
 
 /* Style for the menu text */
 .sidebar li .menu-text {
-    font-size: 14px; /* or any other value */
-    color: #000; /* or any other value */
+    font-size: 14px; 
+    color: #000; 
 }
 
 /* Style for the menu items */
@@ -53,7 +53,7 @@ body {
 }
 /* Set a fixed width for the notification icon */
 .notification {
-    width: 24px; /* or any other pixel value */
+    width: 24px; 
     text-align: center;
 }
 /* Set the width of the profile icon and name based on the length of the name */
@@ -65,6 +65,18 @@ body {
 /* Set the search input to take up the remaining space */
 .search {
     flex: 1;
+    display: flex;
+}
+/* Style for the search input box */
+.search input[type="text"] {
+    padding: 0.5em;
+    border-radius: 0.25em;
+    border: 1px solid gray;
+    width: 80%;
+    margin-left: 10px;
+}
+.search-input {
+    align-items: center;
 }
 
 .main-content {
