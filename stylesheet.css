@@ -53,15 +53,26 @@ body {
 }
 /* Set a fixed width for the notification icon */
 .notification {
-    width: 24px; 
+    width: 10px; 
     text-align: center;
 }
 /* Set the width of the profile icon and name based on the length of the name */
 .profile {
     width: auto;
     flex: 1;
-    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 5px 20px 5px auto;
 }
+
+.profile-img {
+    border-radius: 50%;
+    height: 50px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
 /* Set the search input to take up the remaining space */
 .search {
     flex: 1;
