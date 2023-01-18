@@ -43,6 +43,7 @@ body {
 .header {
     grid-column-start: 2;
     grid-row-start: 1;
+    margin: 10px 25px;
 }
 
 /* Make the upper container a flex container */
@@ -63,7 +64,7 @@ body {
     display: flex;
     justify-content: end;
     align-items: center;
-    margin: 5px 20px 5px auto;
+    margin: 5px 0;
 }
 
 .profile-img {
@@ -72,7 +73,10 @@ body {
     margin-left: 50px;
     margin-right: 10px;
 }
-
+.profile-img-big{
+    border-radius: 50%;
+    height: 100px;
+}
 /* Set the search input to take up the remaining space */
 .search {
     flex: 1;
@@ -89,7 +93,21 @@ body {
 .search-input {
     align-items: center;
 }
-
+.head-lower {
+    display: flex;
+    align-items: center;
+}
+.head-lower .user{
+    display: flex;
+    flex: 1;
+}
+.welcome {
+    padding-left: 10px;
+}
+.head-lower .buttons{
+    float: right;
+    margin-left: auto;
+}
 .main-content {
     background-color: gray;
 }
