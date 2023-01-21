@@ -130,23 +130,47 @@ body {
 }
 .card {
   background-color: white;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   border-left-style: solid;
   border-left-color: #ca8a04;
   border-left-width: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 200px;
+  overflow: hidden;
+  border-bottom: none;
+  border-bottom-style: 10px;
 }
-.inner-card-container{
+.inner-card-container {
   margin: 0 10px;
 }
+
 .main-side {
   grid-column: 2 3;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 350px 350px;
+  margin-left: 20px;
 }
 
 .card-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+}
+
+.ann-container {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 290px;
+}
+
+.trending-container {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 290px;
+}
+
+.title {
+  margin-bottom: 20px;
 }
