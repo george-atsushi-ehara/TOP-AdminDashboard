@@ -13,6 +13,11 @@ body {
   font-size: 2em;
 }
 
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+}
+
 /* Align the icon and text on the same row */
 .sidebar li {
   display: flex; /* make the list item a flex container */
@@ -142,6 +147,7 @@ body {
 }
 .inner-card-container {
   margin: 0 10px;
+  height: 180px;
 }
 
 .main-side {
